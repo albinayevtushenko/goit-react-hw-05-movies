@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, useLocation, Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { useRef } from 'react';
 
 import { getMovieById } from 'servises/Api';
@@ -62,11 +62,11 @@ const MovieDetails = () => {
   );
 };
 
-MovieDetails.protoTypes = {
-  title: PropTypes.string.isRequired,
-  overview: PropTypes.string.isRequired,
-  release_date: PropTypes.number.isRequired,
-  vote_average: PropTypes.number.isRequired,
-};
+// MovieDetails.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   overview: PropTypes.string.isRequired,
+//   release_date: PropTypes.number.isRequired,
+//   vote_average: PropTypes.number.isRequired,
+// };
 
 export default MovieDetails;

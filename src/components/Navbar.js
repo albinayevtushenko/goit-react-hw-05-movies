@@ -1,5 +1,5 @@
 import styles from './navbar.module.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import { NavLink } from 'react-router-dom';
 
@@ -24,8 +24,8 @@ const NavBar = () => {
   );
 };
 
-NavBar.protoTypes = {
-  getClassName: PropTypes.func.isRequired,
-};
+// NavBar.propTypes = {
+//   getClassName: PropTypes.func.isRequired,
+// };
 
 export default NavBar;

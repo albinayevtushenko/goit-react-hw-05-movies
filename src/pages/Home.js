@@ -1,7 +1,7 @@
 import { getTrendingMovie } from '../servises/Api';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from '../components/style.module.css';
 
 const Home = () => {
@@ -41,9 +41,9 @@ const Home = () => {
   );
 };
 
-Home.protoTypes = {
-  title: PropTypes.string.isRequired,
-  id: PropTypes.number.isRequired,
-};
+// Home.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   id: PropTypes.number.isRequired,
+// };
 
 export default Home;

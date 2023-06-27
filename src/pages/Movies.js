@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams, useLocation } from 'react-router-dom';
 import { getSearchMovie } from '../servises/Api';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import { Link } from 'react-router-dom';
 
@@ -68,9 +68,9 @@ const Movies = () => {
   );
 };
 
-Movies.protoTypes = {
-  title: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
-};
+// Movies.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   id: PropTypes.string.isRequired,
+// };
 
 export default Movies;

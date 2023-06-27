@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 import { getMovieCastById } from '../servises/Api';
 import imgUrl from 'servises/utils/utils';
@@ -53,9 +53,9 @@ const Cast = () => {
 
 export default Cast;
 
-Cast.protoTypes = {
-  id: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  profile_pathe: PropTypes.number.isRequired,
-  character: PropTypes.number.isRequired,
-};
+// Cast.propTypes = {
+//   id: PropTypes.string.isRequired,
+//   name: PropTypes.string.isRequired,
+//   profile_pathe: PropTypes.number.isRequired,
+//   character: PropTypes.number.isRequired,
+// };
